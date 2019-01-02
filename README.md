@@ -42,4 +42,3 @@ import RNToast from 'react-native-toast';
 // TODO: What to do with the module?
 RNToast;
 ```
-  
