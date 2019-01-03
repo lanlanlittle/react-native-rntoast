@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13FF53321DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FF53221DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.m */; };
+		A13FF53521DCF81B009D7A6C /* ToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FF53421DCF81B009D7A6C /* ToastManager.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNToast.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13FF53121DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+EdgeInsetsLabel.h"; sourceTree = "<group>"; };
+		A13FF53221DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EdgeInsetsLabel.m"; sourceTree = "<group>"; };
+		A13FF53421DCF81B009D7A6C /* ToastManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastManager.m; sourceTree = "<group>"; };
+		A13FF53621DCF826009D7A6C /* ToastManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastManager.h; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNToast.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +56,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				A13FF53621DCF826009D7A6C /* ToastManager.h */,
+				A13FF53421DCF81B009D7A6C /* ToastManager.m */,
+				A13FF53121DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.h */,
+				A13FF53221DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.m */,
 				B3E7B5881CC2AC0600A0062D /* RNToast.h */,
 				B3E7B5891CC2AC0600A0062D /* RNToast.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -112,6 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13FF53321DCF4F7009D7A6C /* UILabel+EdgeInsetsLabel.m in Sources */,
+				A13FF53521DCF81B009D7A6C /* ToastManager.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +216,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
